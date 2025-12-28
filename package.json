@@ -23,7 +23,6 @@
     "tailwind-merge": "^2.5.4"
   },
   "devDependencies": {
-    "@testing-library/react": "^14.1.2",
     "@testing-library/jest-dom": "^6.1.5",
     "@types/jest": "^29.5.11",
     "@types/node": "^22.10.1",
