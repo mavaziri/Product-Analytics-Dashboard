@@ -35,7 +35,7 @@ export class SalesService implements ISalesService {
   }
 
   generateMockSalesData(productId: number): ProductSalesMetrics {
-    // Generate deterministic but varied data based on product ID
+    // Create consistent mock sales data for each product and month using the product ID as a seed
     const seed = productId;
 
     const monthlySales: MonthlySalesData[] = this.months.map((month, index) => {

@@ -31,17 +31,14 @@ export class ProductService implements IProductService {
 
     let products = [...productsResult.data];
 
-    // Apply filters
     if (filters) {
       products = this.applyFilters(products, filters);
     }
 
-    // Apply sorting
     if (sort) {
       products = this.applySort(products, sort);
     }
 
-    // Apply pagination
     const paginationConfig = pagination || { page: 1, limit: 20 };
     const paginatedResult = this.applyPagination(products, paginationConfig);
 
