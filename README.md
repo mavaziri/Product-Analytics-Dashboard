@@ -29,7 +29,7 @@ This project was developed as a technical assessment demonstrating expertise in:
 - ✅ **Loading States** with skeleton loaders
 - ✅ **Error Handling** with proper error boundaries
 - ✅ **SEO Optimized** with dynamic metadata generation
-- ✅ **Unit Tests** with Jest and React Testing Library
+  -- ✅ **Unit Tests** with Jest
 
 ## Project Structure
 
@@ -221,7 +221,7 @@ yarn test:ci      # Run tests in CI mode
 
 The project includes comprehensive unit tests demonstrating best practices:
 
-- **Testing Framework**: Jest with React Testing Library
+- **Testing Framework**: Jest
 - **Test Coverage**: Service layer business logic
 - **Mock Implementation**: Repository pattern for isolated testing
 - **Type Safety**: Full TypeScript support in tests
@@ -346,7 +346,7 @@ This project addresses all evaluation criteria:
 ✅ TypeScript strict mode with no `any` types  
 ✅ Clear naming conventions  
 ✅ Reusable components and hooks  
-✅ Unit tests with Jest and React Testing Library  
+✅ Unit tests with Jest  
 ✅ Proper error handling and loading states
 
 ### UI/UX & Functionality (10%)

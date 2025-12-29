@@ -633,7 +633,7 @@ export default function NotFound() {
 
 The project includes comprehensive unit tests for the service layer, demonstrating test-driven development practices.
 
-### Unit Tests with Jest and React Testing Library
+### Unit Tests with Jest
 
 **Framework**: Jest with TypeScript support  
 **Location**: [`src/services/__tests__/ProductService.test.ts`](src/services/__tests__/ProductService.test.ts)
